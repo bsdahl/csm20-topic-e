@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEF161B91BDC4B4700844282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF161B81BDC4B4700844282 /* main.cpp */; };
+		CE0A75B01BE05ACE007AAAF4 /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0A75AE1BE05ACE007AAAF4 /* PrecondViolatedExcep.cpp */; };
+		CEF161B91BDC4B4700844282 /* TopicE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF161B81BDC4B4700844282 /* TopicE.cpp */; };
+		CEF161C11BDC4B7900844282 /* TopicEData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF161BF1BDC4B7900844282 /* TopicEData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE0A75AE1BE05ACE007AAAF4 /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		CE0A75AF1BE05ACE007AAAF4 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
 		CEF161B51BDC4B4700844282 /* Topic E */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Topic E"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF161B81BDC4B4700844282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEF161B81BDC4B4700844282 /* TopicE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopicE.cpp; sourceTree = "<group>"; };
+		CEF161BF1BDC4B7900844282 /* TopicEData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopicEData.cpp; sourceTree = "<group>"; };
+		CEF161C01BDC4B7900844282 /* TopicEData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicEData.h; sourceTree = "<group>"; };
+		CEF161C21BDC4BF400844282 /* Heap_PriorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heap_PriorityQueue.cpp; sourceTree = "<group>"; };
+		CEF161C31BDC4BF400844282 /* Heap_PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap_PriorityQueue.h; sourceTree = "<group>"; };
+		CEF161C51BDC4C0B00844282 /* ArrayMaxHeap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayMaxHeap.cpp; sourceTree = "<group>"; };
+		CEF161C61BDC4C0B00844282 /* ArrayMaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayMaxHeap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,15 @@
 		CEF161B71BDC4B4700844282 /* Topic E */ = {
 			isa = PBXGroup;
 			children = (
-				CEF161B81BDC4B4700844282 /* main.cpp */,
+				CEF161B81BDC4B4700844282 /* TopicE.cpp */,
+				CEF161BF1BDC4B7900844282 /* TopicEData.cpp */,
+				CEF161C01BDC4B7900844282 /* TopicEData.h */,
+				CEF161C21BDC4BF400844282 /* Heap_PriorityQueue.cpp */,
+				CEF161C31BDC4BF400844282 /* Heap_PriorityQueue.h */,
+				CEF161C51BDC4C0B00844282 /* ArrayMaxHeap.cpp */,
+				CEF161C61BDC4C0B00844282 /* ArrayMaxHeap.h */,
+				CE0A75AE1BE05ACE007AAAF4 /* PrecondViolatedExcep.cpp */,
+				CE0A75AF1BE05ACE007AAAF4 /* PrecondViolatedExcep.h */,
 			);
 			path = "Topic E";
 			sourceTree = "<group>";
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF161B91BDC4B4700844282 /* main.cpp in Sources */,
+				CE0A75B01BE05ACE007AAAF4 /* PrecondViolatedExcep.cpp in Sources */,
+				CEF161B91BDC4B4700844282 /* TopicE.cpp in Sources */,
+				CEF161C11BDC4B7900844282 /* TopicEData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +252,7 @@
 				CEF161BE1BDC4B4700844282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
